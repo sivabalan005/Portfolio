@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/pages/portfolio.css">
+
+    <!-- <link rel="stylesheet" href="portfoilio1.css"> -->
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">SivaBalabn M</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+      
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                              Services
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                      <a class="links" href="#projects">
+                            Projects
+                        </a>
+                  </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">SIVABALAN M</h1>
+                <h4 class="sub-heading">I'm a <span class="typewriter"> </span></h4>
+                <p class="description">A full-stack Java developer portfolio showcases your skills in both 
+                front-end and back-end development, using Java 
+                technologies  to build dynamic,
+                 scalable web applications.</p>
+              </div>
+            <div class="intro-buttons">
+              <a href="/assets/M Resume.docx">DOWNLOAD CV</a>
+              <a href="#contact">HIRE ME</a>              
+            </div>
+            <div class="social-icons">
+              <i id="icons" class="fa-brands fa-instagram"></i>
+              <i id="icons" class="fa-brands fa-x-twitter"></i>
+              <i id="icons" class="fa-brands fa-facebook-f"></i>
+              <i id="icons" class="fa-brands fa-github"></i> 
+            </div>
+        </div>
+        <div class="img">
+          <img src="/assets/sivabalan 2024.JPG" alt="siva">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+            <h1>About Me</h1>
+         <div class="main-about">
+
+             <div class="about-img">
+                 <img src="/assets/siva.png" alt="siva2">
+                </div>    
+                <div class="about-section">
+            <div class="about-text">
+                <h2>Hi, I'm<span class="about-name"> SIVABALAN M</span></h2>
+                <p>I am an aspiring Java Full Stack Developer with a strong interest in building dynamic, scalab
+                    le web applications. After completing a comprehensive course, I have hands-on experience with 
+                    Java, HTML, CSS, JavaScript, and various frameworks, and I'm eager to continue learning and growing in the field.</p>
+            </div>
+            
+            <div class="btn-container">
+                <button id="skills-btn">Skills</button>
+                <button id="education-btn">Education</button>
+             </div>
+    
+            <div class="content-section skills" id="skills">
+                <h3>My Skills</h3>
+                <ul>
+                    <li>Responsive Webs</li>
+                    <li>Front-end Frameworks (React js)</li>
+                    <li>Back-end Technologies (Node js, Spring Boot,Java,MySQL)</li>
+                    <li>UI/UX Design</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+    
+            <div class="content-section education" id="education">
+                <h3>My Education</h3>
+                <ul>
+                    <li><strong>Bsc Computer Science Degree</strong> - [Bharathidasan University [2021-2024] CGP 3</li>
+                    <li><strong>Full Stack Web Development Certification</strong> - [Java], [2024]</li>
+    
+                </ul>
+            </div>
+        </div>
+    </div>   
+    </section>
+    
+    <!-- Service Section -->
+    <section id="services">
+        <h1>Our Services</h1>
+        <div class="service-container">
+            <div class="service-card">
+                <h2>Web Development</h2>
+                <p>Building dynamic, responsive websites tailored to your needs using modern 
+                    technologies like HTML, CSS, JavaScript, and frameworks like React</p>
+            </div>
+            <div class="service-card">
+                <h2>Backend Development</h2>
+                <p>Designing and implementing scalable and efficient server-side applications using Java, 
+                    Node.js, and  databases like MySQL</p>
+            </div>
+            <div class="service-card">
+                <h2>UI/UX Design</h2>
+                <p>Creating intuitive user interfaces and seamless user experiences to ensure your
+                     website is both visually appealing and user-friendly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects">
+        <h1>My Projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1" />
+                <h2>Project One</h2>
+                <p>This project involved creating a dynamic and responsive e-commerce website using React and Node.js. The website supports user authentication, product filtering, and payment gateway integration.</p>
+                <a href="https://github.com/yourusername/project1" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpg" alt="Project 2" />
+                <h2>Project Two</h2>
+                <p>This project focused on building a blog platform with content management functionality. Built with Java, Spring Boot, and MySQL, it allows users to write, edit, and comment on posts.</p>
+                <a href="https://github.com/yourusername/project2" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="project3.jpg" alt="Project 3" />
+                <h2>Project Three</h2>
+                <p>A mobile-friendly portfolio website built with HTML, CSS, and JavaScript. It features smooth animations and an interactive design to showcase my skills and previous work.</p>
+                <a href="https://github.com/yourusername/project3" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name" required >
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email" required >
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone" required >
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10" required>
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">sivab9520@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 9600814450</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p>s/o Muthukumar Nambithidal</p>
+                    <p>Edaiyathimangalam,Manamelkudi,</p>
+                    <p>Pudukottai(dt)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <!-- <h4>
+                Copyright © 2023 All rights reserved |
+            </h4> -->
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="/pages/portfolio.js"></script>
+</body>
+
+</html>
